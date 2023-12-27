@@ -25,7 +25,7 @@ function Header() {
             if(currentTour){
                 setPageTitle(currentTour.title)
             }
-            else {
+            else if (currentNews){
                 setPageTitle(currentNews.name)
             }
         }
