@@ -1,0 +1,237 @@
+.tickets {
+    width: 100%;
+    background: #F1F1F1;
+    padding: 60px 0px 40px;
+}
+.ticket {
+    width: 82%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px 0px #00000014;
+}
+.details-ticket {
+    display: flex;
+    align-items: center;
+}
+.first-details-ticket {
+    margin: 30px 0px;
+    width: 25%;
+    padding-left: 30px;
+}
+.container-ticket {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.container-ticket .details-ticket:first-child {
+    width: 45%;
+    margin-left: 0px;
+    justify-content: center;
+}
+.last-details-ticket {
+    width: 53%;
+    justify-content: space-between;
+}
+.last-details-ticket .txt-ticket:first-child {
+    width: 35%;
+}
+.last-details-ticket .txt-ticket:last-child {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details-ticket img {
+    width: 20%;
+    margin-right: 15px;
+}
+.clock-details img{
+    width: 150px;
+    height: 9px;
+    margin: 0px 15px;
+}
+.details-ticket h3 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.details-ticket p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #818181;
+}
+.details-ticket:last-child p:first-child{
+    line-height: 28px;
+}
+.last-details-ticket p:last-child{
+    color: #FDA331;
+}
+.ticket h4 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #1B1464;
+}
+.ticket button {
+    width: 150px;
+    height: 46px;
+    border-radius: 5px;
+    background: #1B1464;
+    color: white;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+
+.aviabiletler {
+    width: 84%;
+    margin: auto;
+}
+.aviabiletler .mySwiper {
+    padding: 50px 0px;
+}
+.aviabiletler .mySwiper div img {
+    width: 100%;
+}
+.aviabiletler .mySwiper div h3 {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 600;
+    margin: 20px 0px 10px;
+}
+.aviabiletler .mySwiper div p {
+    font-size: 12px;
+    line-height: 26px;
+}
+.aviabiletler .mySwiper div button {
+    width: 180px;
+    height: 47px;
+    border: 1px solid #09259A;
+    color: #09259A;
+    background-color: white;
+    margin: 15px 0px 0px;
+    transition: 1s;
+}
+.aviabiletler .mySwiper div button:hover {
+    background: #132D97;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .details-ticket h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .details-ticket p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .clock-details img {
+        width: 130px;
+        margin: 0px 10px;
+    }
+    .ticket h4 {
+        font-size: 18px;
+    }
+    .ticket button {
+        width: 130px;
+        height: 42px;
+    }
+}
+@media (max-width: 1024px) {
+    .clock-details img {
+        width: 100px;
+    }
+    .details-ticket p{
+        font-size: 12px;
+    }
+    .details-ticket button {
+        width: 120px;
+        height: 36px;
+    }
+}
+@media (max-width: 992px) {
+    .ticket {
+        width: 88%;
+    }
+}
+@media (max-width: 768px) {
+    .first-details-ticket {
+        margin: 20px 0px;
+        width: 28%;
+        text-align: center;
+    }
+    .first-details-ticket img {
+        width: 40%;
+        margin-right: 0px;
+    }
+    .container-ticket .details-ticket:first-child {
+        width: 50%;
+    }
+    .container-ticket .details-ticket:last-child {
+        width: 50%;
+        text-align: center;
+    }
+    .last-details-ticket .txt-ticket:last-child {
+        display: block;
+    } 
+    .clock-details img {
+        width: 70px;
+    }
+    .details-ticket button {
+        width: 90px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 575px) {
+    .ticket {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .first-details-ticket{
+        width: 35%;
+        display: block;
+    }
+    .container-ticket {
+        width: 60%;
+        flex-direction: column;
+    }
+    .container-ticket .details-ticket:first-child {
+        width: 100%;
+    }
+    .container-ticket .details-ticket:last-child {
+        width: 100%;
+        justify-content: space-between;
+        padding-right: 0px;
+    }
+    .last-details-ticket .txt-ticket:first-child {
+        width: 30%;
+    }
+    .last-details-ticket .txt-ticket:last-child {
+        width: 60%;
+        display: flex;
+    }
+}
+@media (max-width: 480px) {
+    .clock-details img {
+        width: 60px;
+    }
+    .container-ticket .details-ticket:last-child {
+        margin-top: 10px;
+    }
+    .last-details-ticket .txt-ticket:first-child {
+        width: 50%;
+    }
+    .last-details-ticket .txt-ticket:last-child {
+        width: 50%;
+        display: block;
+    }
+}

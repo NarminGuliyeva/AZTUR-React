@@ -1,0 +1,263 @@
+.section-about {
+    padding-top: 30px;
+}
+.txt-about {
+    width: 84%;
+    margin: 0px auto 40px;
+}
+.txt-about p, li {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.txt-about p {
+    margin: 20px 0px 0px;
+}
+.txt-about ul li{
+    margin-left: 40px;
+    list-style-type: disc;
+}
+.img-about {
+    height: 340px;
+    background-position: bottom;
+}
+.txt-img-about {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.part-txt-img-about {
+    width: 20%;
+    text-align: center;
+}
+.part-txt-img-about h3 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.part-txt-img-about p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.pictures-about {
+    width: 84%;
+    margin: auto;
+    padding: 60px 0px;
+}
+.pictures-about img {
+    width: 100%;
+}
+#whyUs {
+    display: flex;
+    justify-content: center;
+  }
+  .home-whyus {
+    padding-bottom: 40px; 
+    background-image: url('/public/img/planee-1 1.png');
+    background-repeat: no-repeat;
+    background-size: 52%;
+  }
+  .part-whyus {
+    width: 42%;
+  }
+  
+  .info-whyus {
+    padding-right: 70px;
+  }
+  
+  .info-whyus p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  
+  .info-whyus .title {
+    margin-bottom: 10px;
+    margin-left: 0%;
+  }
+  
+  .info-whyus .info {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-whyus .info .alt-info {
+    width: 30%;
+    display: flex;
+  }
+  
+  .info-whyus .info .alt-info img {
+    margin-right: 13px;
+    height: 46px;
+  }
+  
+  .info-whyus .alt-info h5 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .info-whyus .alt-info p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 3px;
+  }
+  
+  .video-whyus {
+    padding-top: 4px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .whyus-img {
+    width: 550px;
+    position: relative;
+  }
+  
+  .video-whyus .main-img {
+    width: 100%;
+  }
+  .video-whyus .vector-img {
+    width: 18%;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+@media (max-width: 1440px) {
+    .info-whyus {
+        padding-right: 40px;
+    }
+    .txt-whyus p {
+        line-height: 22px;
+        text-align: justify;
+    }
+}
+@media (max-width: 1200px) {
+    .info-whyus {
+        padding-right: 20px;
+    }
+    .txt-whyus p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .info-whyus .info {
+        margin-top: 8px;
+    }
+    .info-whyus .info img {
+        height: 20px;
+    }
+}
+@media (max-width:1024px) {
+    .txt-img-about {
+        width: 90%;
+    }
+    .part-txt-img-about h3 {
+        font-size: 42px;
+    }
+    .part-txt-img-about p {
+        font-size: 17px;
+    }
+    .txt-whyus p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    #whyUs .title{
+        margin-bottom: 0px;
+    }
+    .info-whyus .info .alt-info img {
+        height: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .txt-about p,li{
+        font-size: 14px;
+    }
+    .part-txt-img-about h3 {
+        font-size: 34px;
+        line-height: 30px;
+    }
+    .part-txt-img-about p {
+        font-size: 15px;
+    }
+    .pictures-about {
+        padding: 40px 0px;
+    }
+    #whyUs {
+        display: block;
+        background-position-y: 90px;
+        background-size: 82%;
+    }
+    .info-whyus {
+        padding-bottom: 30px;
+    }
+    .part-whyus {
+        width: 80%;
+        margin: auto;
+    }
+    .txt-whyus p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .txt-whyus .info {
+        margin-top: 20px;
+    }
+    .video-whyus {
+        width: 80%;
+        justify-content: center;
+    }
+    .whyus-img {
+        width: 100%;
+    }
+}
+@media (max-width: 575px) {
+    #whyUs {
+        background-size: 90%;
+    }
+    .txt-whyus p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 480px) {
+    .txt-about p, li {
+        font-size: 12px;
+    }
+    .part-txt-img-about h3 {
+        font-size: 26px;
+    }
+    .part-txt-img-about p {
+        font-size: 12px;
+    }
+    .pictures-about {
+        padding: 20px 0px;
+    }
+    #whyUs {
+        background-size: 100%;
+        background-position-y: 110px;
+    }
+    .txt-whyus p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .info-whyus .info .alt-info img {
+        height: 30px;
+    }
+    .info-whyus .alt-info h5 {
+        font-size: 13px;
+    }
+    .info-whyus .alt-info p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+}
+
+
+
